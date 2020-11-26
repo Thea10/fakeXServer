@@ -34,7 +34,7 @@ app.post("/create-checkout-session/", async (req, res) => {
       },
     ],
     mode: "payment",
-    success_url: "https://fakexstoretore.netlify.app/payment-successfull",
+    success_url: "https://fakexstore.netlify.app/payment-successfull",
     cancel_url: "https://fakexstore.netlify.app/cart",
   });
 
