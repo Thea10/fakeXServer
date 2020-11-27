@@ -34,8 +34,8 @@ app.post("/create-checkout-session/", async (req, res) => {
       },
     ],
     mode: "payment",
-    success_url: "https://fakeXStore.netlify.app/payment-successfull",
-    cancel_url: "https://fakeXStore.netlify.app/cart",
+    success_url: "https://fakexstore.netlify.app/payment-successfull",
+    cancel_url: "https://fakexstore.netlify.app/cart",
   });
 
   res.json({ id: session.id });
